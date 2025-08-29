@@ -1,0 +1,12 @@
+body {
+    padding: 30px;
+}
+.retangulo {
+    width: 22%;
+    height: 200px;
+    background-color: #539ff7;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
