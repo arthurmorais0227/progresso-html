@@ -9,4 +9,26 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.roxo {
+    background-color: blueviolet;
 }
