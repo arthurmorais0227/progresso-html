@@ -45,15 +45,15 @@ body {
 }
 
 .vermelho {
-    background-image: linear-gradient(to right, red, rgb(143, 4, 4));
+    background-image: radial-gradient(circle, red, rgb(143, 4, 4));
     box-shadow: 0 0 20PX red;
 }
 .amarelo {
-    background-image: linear-gradient(to right, yellow, rgb(202, 202, 2));
+    background-image: radial-gradient(circle, yellow, rgb(202, 202, 2));
     box-shadow: 0 0 20PX yellow;
 }
 .verde {
-    background-image: linear-gradient(to right, rgb(9, 255, 0), rgb(22, 129, 1));
+    background-image: radial-gradient(circle, rgb(9, 255, 0), rgb(22, 129, 1));
     box-shadow: 0 0 20PX rgb(0, 212, 0);
 }
 
