@@ -16,7 +16,7 @@ body {
     background-image: linear-gradient(to bottom, red, yellow, green);
     text-decoration: black;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     margin: 20px;
     border: linear-gradient(to bottom, red, yellow, green);
     border-radius: 25px;
@@ -26,14 +26,16 @@ body {
 }
 
 .semaforo{
-    background-color: black;
+    margin: 30px;
+    background-color: rgb(24, 24, 24);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 380px;
+    height: 390px;
     gap: 12px;
-    width: 150px;
+    width: 170px;
+    border-radius: 25px;
 }
 
 .sinal{
@@ -43,12 +45,15 @@ body {
 }
 
 .vermelho {
-    background-color: red;
+    background-image: linear-gradient(to right, red, rgb(143, 4, 4));
+    box-shadow: 0 0 20PX red;
 }
 .amarelo {
-    background-color: yellow;
+    background-image: linear-gradient(to right, yellow, rgb(202, 202, 2));
+    box-shadow: 0 0 20PX yellow;
 }
 .verde {
-    background-color: green;
+    background-image: linear-gradient(to right, rgb(9, 255, 0), rgb(22, 129, 1));
+    box-shadow: 0 0 20PX rgb(0, 212, 0);
 }
 
